@@ -1,4 +1,5 @@
 #/bin/sh
+make
 python3 gen.py
 ./first fileA fileB
 gzip -c fileA > fileA.gz

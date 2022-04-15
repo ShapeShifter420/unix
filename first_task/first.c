@@ -18,7 +18,7 @@ if (argc > 2){
     if (errno)
         {printf("Ошибка открытия файла");
         return 1;}
-while(read(fd1,block,BLOCK_SIZE)){
+while(BLOCK_SIZE = read(fd1,block,BLOCK_SIZE)){
     if (errno)
         {printf("Ошибка чтения файла");
         return 1;}
